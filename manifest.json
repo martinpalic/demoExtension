@@ -1,0 +1,16 @@
+{
+  "name": "Demo Extension",
+  "description": "Try to make extension for getting menus",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": [
+        "https://menucka.sk/denne-menu/*",
+        "https://restauracie.sme.sk/restauracia/don-quijote_7436-nove-mesto_2653/denne-menu",
+        "https://gastrohouse.sk/",
+        "https://restauracie.sme.sk/restauracia/svadby-a-kari-americka_10343-nove-mesto_2653/denne-menu"
+    ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
